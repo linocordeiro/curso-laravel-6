@@ -16,6 +16,8 @@ Route::group([
 
     Route::get('/home', 'TesteController@teste')->name('home');
 
+    Route::get('/dashboard', 'TesteController@teste')->name('dashboard');
+
     Route::get('/', function () {
         return redirect()->route('admin.dashboard');
     })->name('home');
