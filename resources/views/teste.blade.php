@@ -11,6 +11,7 @@
     {{$teste}} <!-- limpa caracteres html, impede ataque xss -->
     {!!$teste!!} <!-- nao limpa caracteres html, interpreta como veio e joga na tela -->
     {!!$alerta!!} <!-- nao limpa caracteres html, interpreta como veio e joga na tela -->
+    <h1>Teste de commit</h1>
 
 </body>
 
